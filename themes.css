@@ -1,0 +1,289 @@
+@font-face {
+    src: url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+    font-family: 'bubbly';
+    font-display: swap;
+    }
+  	html {
+    font-family: "bubbly";
+    }
+	  body{ 
+    background-image: url('http://dl7.glitter-graphics.net/pub/927/927817d689yti575.gif');
+    background-attachment: fixed;
+    background-repeat: repeat;
+    }
+    header {
+  	background-size: 50%;
+  	background-position: center;
+  	width: 85%;
+  	height: 390px; /* change banner height */
+  	border: 2px ridge var(--border);
+  	border-radius: 10px;
+  	position: relative;
+  	margin-left: 7%;
+    margin-right: 3%;
+  	background: url("furina banner.gif");
+    background-color: #4c6685;
+    border: solid #1f487e 2pt;
+    }
+    header span {
+    color: #01497c;
+  	font-size: 2.5rem;
+  	position: absolute;
+  	bottom: 0;
+  	right: 10px;
+  	margin: 10px;
+  	font-weight: bold;
+    }
+    nav a {
+    font-size: 20px;
+  	margin: 5px;
+  	border-radius: 5px;
+  	padding: 2px 7px;
+  	text-decoration: none;
+    }
+    .container {
+  	background: rgba(0, 0, 0, .25);
+  	background-size: cover;
+  	width: 1500px;
+  	margin: 0 auto;
+  	height: 1500px;
+  	border: 2px #1f487e solid;
+  	margin-top:10px;
+  	margin-bottom: 10px;
+  	position:relative;
+    }
+	  .nav {
+    padding: 10pt;
+    text-align: center;
+    margin-top:1px;
+    margin-left: 200px;
+    width: 1000px;
+    height: 50px;
+    border-radius: 10px;
+	  }
+    footer span {
+    background-color:  #bbd1ea;;
+    margin-left: 50%;
+    }
+    /* home page */
+	  .intro {
+    padding: 5pt;
+    text-align: center;
+    margin-top:90px;
+    margin-left: 350px;
+    width: 700px;
+    height: 130px;
+    border-radius: 10px;
+	  }
+	  .addme {
+    padding: 10pt;
+    margin-top:100px;
+    margin-left: 110px;
+    width: 200px;
+    height: 360px;
+    border-radius: 10px;
+	  }
+    .addme li {
+    font-size:10px;
+    }
+	  .themes {
+    padding: 10pt;
+    margin-top:100px;
+    margin-left: 1080px;
+    /* don't change..*/
+	  width: 350px;
+    height: 200px;
+    border-radius: 10px;
+	  }
+	  .music {
+    padding: 10pt;
+    margin-top:310px;
+    margin-left: 350px;
+    width: 690px;
+    height: 200px;
+    border-radius: 10px;
+    overflow-y: auto;
+	  }
+    .cover_art {
+    width: 150px;
+    height: 150px;
+    margin-left: 2%;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    }
+    /*
+    .song_info{
+    background-color: #75acd3;
+    }
+    */
+    .song_name {
+      font-size: 25px;
+      margin-top: -20%;
+    }
+    .artist_name {
+      font-size: 15px;
+    }
+    .slider_container {
+      display: flex;
+      align-items: center;
+      gap: 0px;
+      margin-left: 25%;
+      margin-top: 2%;
+      width: 70%;
+    }
+    .seekSlider {
+      flex: 1; 
+    }
+    .current_time, .song_length {
+      min-width: 40px;
+      text-align: center;
+    }
+	  .webcam {
+    padding: 0pt;
+    text-align: center;
+    margin-top:560px;
+    margin-left: 330px;
+    width: 760px;
+    height: 500px;
+    border-radius: 10px;
+	  }
+    #webcam_gif {
+      border: solid #688dbe 3pt;
+      border-radius: 10px;
+    }
+	  .updates {
+    padding: 10pt;
+    text-align: center;
+    margin-top:500px;
+    margin-left: 130px;
+	 width: 160px;
+    height: 340px;
+    border-radius: 10px;
+	  }
+	  .sites {
+	padding: 10pt;
+    text-align: center;
+    margin-top:340px;
+    margin-left: 1110px;
+	width: 300px;
+    height: 250px;
+    border-radius: 10px;
+	  }
+    /* about me */
+    .about_me{
+    padding: 5pt;
+    text-align: center;
+    margin-top:90px;
+    margin-left: 110px;
+    width: 800px;
+    height: 200px;
+    border-radius: 10px;
+    }
+
+    .fun_facts{
+    padding: 5pt;
+    margin-top:320px;
+    margin-left: 130px;
+	  width: 500px;
+    height: 200px;
+    border-radius: 10px;
+    }
+    .hobbies {
+    padding: 10pt;
+    margin-top:340px;
+    margin-left: 700px;
+	  width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    }
+    .fandoms {
+    padding: 10pt;
+    margin-top:570px;
+    margin-left: 120px;
+	  width: 530px;
+    height: 300px;
+    border-radius: 10px;
+    }
+    .fandombutton {
+    background-color: #527aa8;
+    border:2px solid #2f5485;
+    border-radius: 5px;
+    color:#ffffff;
+    width: 520px;
+    height: 8px;
+    font-size:14px;
+    font-weight:bold;
+    padding:16px 31px;
+    }
+    .minicontainer {
+    border: solid #4f76a8 2pt;
+    background-color: #769fce;
+    border-radius: 5px;
+    }
+    .show-hide {
+    background-color: #769fce;
+    border-radius: 6px;
+    display: none;
+    }
+    /* projects */
+    .projects_intro{
+    padding: 5pt;
+    text-align: center;
+    margin-top:340px;
+    margin-left: 110px;
+    width: 300px;
+    height: 130px;
+    border-radius: 10px;
+    }
+    .projects{
+    padding: 5pt;
+    text-align: center;
+    margin-top:340px;
+    margin-left: 440px;
+    width: 900px;
+    height: 800px;
+    border-radius: 10px;
+    position: relative;
+    }
+    .indivdual_projects {
+    border: solid #4f76a8 2pt;
+    background-color: #769fce;
+    border-radius: 5px;
+    position: absolute;
+    }
+    .projects_sort{
+    padding: 5pt;
+    text-align: center;
+    margin-top:500px;
+    margin-left: 110px;
+    width: 300px;
+    height: 600px;
+    border-radius: 10px;
+    }
+	  .nav, .intro, .addme, .themes, .music, .webcam, .updates, .sites, .about_me, .hobbies, .fun_facts, .fandoms, .projects_intro, .projects, .projects_sort {
+    border: solid #1f487e 2pt;
+    background-color: #bbd1ea;
+    position: absolute;
+	  }
+    .addme, .updates, .fun_facts, .fandoms, .hobbies, .projects {
+    overflow-x: auto;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    }
+    .addme::-webkit-scrollbar,  .fun_facts::-webkit-scrollbar, .fandoms::-webkit-scrollbar, .updates::-webkit-scrollbar{ 
+    width: 1px;
+    }
+    .addme::-webkit-scrollbar-thumb,  .fun_facts::-webkit-scrollbar-thumb, .fandoms::-webkit-scrollbar-thumb{
+    background-color: #c54a4a;
+    }
+    .addme::-webkit-scrollbar-track,  .fun_facts::-webkit-scrollbar-track, .fandoms::-webkit-scrollbar-track{
+    background-color: #c54a4a;
+    }
+    a:hover {
+    background-color: #ffffff;
+	  }
+	  /*link decor*/
+    a {
+    text-decoration: none; color: rgb(23, 0, 128); 
+    }
