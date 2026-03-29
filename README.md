@@ -8,4 +8,4 @@ This is a personal website I made to show off my interests, hobbies, and to deco
 
 Why neocities??
 
-I love how unique all the websites are there. It's so personal to each coder and I was inspired to join the fun :D 
+I love how unique all the websites are there, it's so personal to each coder and I was inspired to join the fun :D I really like the community of sharing buttons to other neocities sites and it wouldn't be the same if I did it on Github, so that's why I hosted it there!
