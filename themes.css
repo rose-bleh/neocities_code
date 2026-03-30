@@ -90,7 +90,6 @@
     padding: 10pt;
     margin-top:100px;
     margin-left: 1080px;
-    /* don't change..*/
 	  width: 350px;
     height: 200px;
     border-radius: 10px;
@@ -102,8 +101,12 @@
     width: 690px;
     height: 200px;
     border-radius: 10px;
-    overflow-y: auto;
 	  }
+    .back_music {
+      background-color:#82a0c2;
+      height:170px;
+      border-radius: 10px;
+    }
     .cover_art {
     width: 150px;
     height: 150px;
@@ -112,11 +115,6 @@
     background-size: cover;
     background-position: center;
     }
-    /*
-    .song_info{
-    background-color: #75acd3;
-    }
-    */
     .song_name {
       font-size: 25px;
       margin-top: -20%;
@@ -136,6 +134,18 @@
       flex: 1; 
     }
     .current_time, .song_length {
+      min-width: 40px;
+      text-align: center;
+    }
+    .song_buttons_container {
+      display: flex;
+      align-items: center;
+      gap: 0px;
+      margin-left: 25%;
+      margin-top: 2%;
+      width: 70%;
+    }
+    .play_pause, .last_song, .next_song {
       min-width: 40px;
       text-align: center;
     }
@@ -266,7 +276,7 @@
     background-color: #bbd1ea;
     position: absolute;
 	  }
-    .addme, .updates, .fun_facts, .fandoms, .hobbies, .projects {
+    .addme, .updates, .music, .fun_facts, .fandoms, .hobbies, .projects {
     overflow-x: auto;
     overflow-y: scroll;
     scrollbar-width: thin;
