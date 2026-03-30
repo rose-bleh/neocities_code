@@ -29,9 +29,27 @@ let currentSong = document.getElementById("music");
 let song_list = [
 {
 img: "cologne_beabadoobee.png",
-name:"cologne",
+name:"Cologne",
 artist:"beabadoobee",
 music:"https://files.catbox.moe/m54tmg.mp3"
+},
+{
+img: "takeabite_beabadoobee.png",
+name:"Take A Bite",
+artist:"beabadoobee",
+music:"https://files.catbox.moe/ppp8dt.mp3"
+},
+{
+img: "takeabite_beabadoobee.png",
+name:"Real Man",
+artist:"beabadoobee",
+music:"https://files.catbox.moe/xuig04.mp3"
+},
+{
+img: "amoeba_clairo.png",
+name:"Amoeba",
+artist:"Clairo",
+music:"https://files.catbox.moe/8fvwo0.mp3"
 },
 ];
 loadSong(song_index);
@@ -76,14 +94,14 @@ function playSong(){
     isPlaying = true;
 
     // replace icon with the pause icon
-    //playPause.innerHTML = '';
+    //playPause.innerHTML = 'pause';
 }
 
 // pauses track when pause button is pressed
 function pauseSong(){
     currentSong.pause();
     isPlaying = false;
-    //playPause.innerHTML = '';
+    //playPause.innerHTML = 'play';
 }
 
 // moves to the next track
@@ -117,7 +135,7 @@ function seekUpdate() {
         let seekPosition = currentSong.currentTime * (100 / currentSong.duration);
         seekSlider.value = seekPosition;
 
-        // Simple time calculation
+        // time calculation
         let curMins = Math.floor(currentSong.currentTime / 60);
         let curSecs = Math.floor(currentSong.currentTime - curMins * 60);
         let durMins = Math.floor(currentSong.duration / 60);
