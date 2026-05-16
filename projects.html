@@ -22,27 +22,28 @@
 				<div>navigation!</div>
 				<a href="main.html">home</a>
 				<a href="about_me.html">about me</a>
-				<a href="">shrines</a>
+				<a href="shrine.html">shrines</a>
 				<a href="projects.html">my projects :0</a>
-				<a href="">guestbook</a>
+				<a href="https://ieatlosers.atabook.org/">guestbook</a>
 				<a href="credits-inspo.html">credits/inspo</a>
 			</nav>
 		</div>
 		
 		<section class="projects_intro">
 			<h1>Projects</h1>
-			<p>Stuff I coded or built. Sort on the left!!</p>
+			<p>Stuff I coded or built. Sort on the left!! (ik its empty shhhh)</p>
 		</section>
 				
 		<section class="projects">
 			<h2 style="text-align: center;">Projects</h2>
 			<section class = "indivdual_projects" style="width:400px; height: 300px; margin-left: 2%;">
-				<a href ='https://github.com/brooklynp0che/thegratitudegarden'>
+				<a href ='https://github.com/brooklynp0che/thegratitudegarden'target="blank">
 					Gratitude Garden
 				</a>
 				<span><br>Tags:</span>
-				<span class="info"><br>This was made for the Code as Canvas hackathon with my partner, Puddle! U can find her site here __</span>
+				<span class="info"><br>This was made for the Code as Canvas hackathon with my partner, Puddle! U can find her site <a href="https://brookiebug333.neocities.org/">here</a>!</span>
 			</section>
+			<!-- i need to make this buttt its a placeholder for da future
 			<section class = "indivdual_projects" style="width: 400px; height: 300px; margin-left: 50%; margin-bottom: 90%;">
 				<a href =''>
 					Minion PCB
@@ -50,16 +51,19 @@
 				<span><br>Tags:</span>
 				<span class="info"><br>Lights up and blinks at a flip of a switch! Made it as my friend's bday present since she loves minions lol</span>
 			</section>
+		-->
 		</section>
 		
 		<!--THIS NEEDS TO BE FIXED SO BAD (cries)-->
 		<section class="projects_sort">
 			<h2 style="text-align: center;">Sort by:</h2>
-			<button>ALL</button>
-			<button>Website</button>
-			<button>Games</button>
-			<button>Code</button>
-			<button>Hardware</button>
+			<button class="project_button">ALL</button>
+			<button class="project_button">Website</button>
+			<button class="project_button">Games</button>
+			<button class="project_button">Code</button>
+			<button class="project_button">Hardware</button>
+			<button class="project_button">Finished</button>
+			<button class="project_button">WIP</button>
 			
 		</section>
 
@@ -69,10 +73,34 @@
 		</section>
 		
 		<section class="music" style="margin-top: 6.7%; margin-left: 10%;">
-			<h2>Music Player</h2>
-			<p>Also changes with the themes :0...orr u can change it urself if ur that impatient smh ( ｡ •̀ ᴖ •́ ｡) ↑</p>
+			<div class="playlist_container">
+				<select id="playlist_select"></select>
+			</div>
+			<h2 style=" text-align: center;">Music Player</h2>
+			<p style=" text-align: center;">Also changes with the themes :0...orr u can change it urself if ur that impatient smh ( ｡ •̀ ᴖ •́ ｡) ↑</p>
+			<div class='back_music'>
+				<div class="song_info" style=" text-align: center;">
+					<div class="cover_art"></div>
+					<div class="song_name"></div>
+					<div class="artist_name"></div>
+				</div>
+				<div class="slider">
+					<div class="slider_container">
+						<div class='current_time'>00:00</div>
+						<input type="range" min="1" max="100" value="0" class="seekSlider" onchange="seekTo()">
+						<div class='song_length'>0:00</div>
+					</div>
+				</div>
+				<div class="song_buttons">
+					<div class = "song_buttons_container">
+						<div class="last_song" onclick="prevSong()">back</div>
+						<div class="play_pause" onclick="playpauseSong()">pause</div>
+						<div class="next_song" onclick="nextSong()">next</div>
+					</div>
+				</div>
+			</div>
+			<audio id="music" src=""></audio>
 		</section>
-		
 	</div>
 
 	<footer>
