@@ -21,15 +21,15 @@
 				<div>navigation!</div>
 				<a href="main.html">home</a>
 				<a href="about_me.html">about me</a>
-				<a href="">shrines</a>
+				<a href="shrine.html">shrines</a>
 				<a href="projects.html">my projects :0</a>
-				<a href="">guestbook</a>
+				<a href="https://ieatlosers.atabook.org/">guestbook</a>
 				<a href="credits-inspo.html">credits/inspo</a>
 			</nav>
 		</div>
 		
 		<section class="intro">
-			<img src="bows and roses.gif" id="intro_decor">
+			<!--<img src="bows and roses.gif" id="intro_decor">-->
 			<h1>welcome to my garden!</h1>
 			<p>Hi!! I'm Rose and this is my personal website. Some stuff is still in development so ill continue to update! Explore around through the nav and especially the themes, that's my favorite part. Have funn! :D</p>
 		</section>
@@ -41,13 +41,13 @@
 			<p>Discord: rose_eatsgachagames
 					<br>Insta: notrllyrose_
 					<br>Tiktok: (i make edits O.o)
-					<br>Genshin:
-					<br>Honkai Star Rail:
+					<br>Github: rose-bleh (see this websites code there!)
+					<br>Genshin: 677239682
+					<br>Honkai Star Rail: 622477911
 					<br>Zenless Zone Zero:
-					<br>Cookie Run Kingdom:
+					<br>Cookie Run Kingdom: QVFHK2040
 					<br>Infinity Nikki:
-					<br>Twisted Wonderland:
-					<br><br><br><br>test
+					<br>Twisted Wonderland: AUFH81mP
 			</p>
 		</section>
 		
@@ -55,26 +55,34 @@
 		  <h1>Themes!</h1>
 		  <p>Click any picture to change the color :3<br><br>(WIPP)</p>
 		</section>
-		
+
+		<!-- IMPORTANTTTTTT DO NOT FORGET-->
 		<section class="music">
+			<div class="playlist_container">
+				<select id="playlist_select"></select>
+			</div>
 			<h2 style=" text-align: center;">Music Player</h2>
 			<p style=" text-align: center;">Also changes with the themes :0...orr u can change it urself if ur that impatient smh ( ｡ •̀ ᴖ •́ ｡) ↑</p>
-			<div class="song_info" style=" text-align: center;">
-				<div class="cover_art"></div>
-				<div class="song_name"></div>
-				<div class="artist_name"></div>
-			</div>
-			<div class="slider">
-				<div class="slider_container">
-					<div class='current_time'>00:00</div>
-					<input type="range" min="1" max="100" value="0" class="seekSlider" onchange="seekTo()">
-					<div class='song_length'>0:00</div>
+			<div class='back_music'>
+				<div class="song_info" style=" text-align: center;">
+					<div class="cover_art"></div>
+					<div class="song_name"></div>
+					<div class="artist_name"></div>
 				</div>
-			</div>
-			<div class="song_buttons">
-				<div class="play_pause" onclick="playpauseSong()">pause</div>
-				<div class="last_song" onclick="prevSong()">back</div>
-				<div class="next_song" onclick="nextSong()">next</div>
+				<div class="slider">
+					<div class="slider_container">
+						<div class='current_time'>00:00</div>
+						<input type="range" min="1" max="100" value="0" class="seekSlider" onchange="seekTo()">
+						<div class='song_length'>0:00</div>
+					</div>
+				</div>
+				<div class="song_buttons">
+					<div class = "song_buttons_container">
+						<div class="last_song" onclick="prevSong()">back</div>
+						<div class="play_pause" onclick="playpauseSong()">pause</div>
+						<div class="next_song" onclick="nextSong()">next</div>
+					</div>
+				</div>
 			</div>
 			<audio id="music" src=""></audio>
 		</section>
