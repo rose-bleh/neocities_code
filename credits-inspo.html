@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ieatlosers</title>
+	<link href="themes.css" rel="stylesheet" type="text/css" media="all">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<!-- Animated Rainbow Nyan Cat - https://www.cursors-4u.com/cursor/animated-nyan-cat-rainbow -->
+  <link rel="stylesheet" href="https://cdn.cursors-4u.net/cursors/animated/animated-nyan-cat-rainbow-c493f1ef-32.css">
+  <!-- End www.Cursors-4U.com Code -->
+</head>
+<body>
+
+	<div class="container" style="height:1400px;">
+
+		<header>
+			<span>you are what you eat :)</span>
+		</header>
+		
+		<div class="nav">
+			<nav>
+				<div>navigation!</div>
+				<a href="main.html">home</a>
+				<a href="about_me.html">about me</a>
+				<a href="shrine.html">shrines</a>
+				<a href="projects.html">my projects :0</a>
+				<a href="https://ieatlosers.atabook.org/">guestbook</a>
+				<a href="credits-inspo.html">credits/inspo</a>
+			</nav>
+		</div>
+		
+		<section class="credits">
+			<h1>Credits!</h1>
+            <p>Furina banner - https://www.pinterest.com/pin/901705156660558486/
+			<br>Floyd gif - https://tenor.com/view/jade-leech-azul-ashengrotto-octavinelle-floyd-twisted-wonderland-floyd-leech-gif-4728728800261998117
+			<br>Cursor - Animated Rainbow Nyan Cat-https://www.cursors-4u.com/cursor/animated-nyan-cat-rainbow</p>
+		</section>	
+		<section class="inspo2">
+			<h1>Inspo!</h1>
+            <p></p>
+		</section>	
+		<section class="themes" style="margin-top: 6%;margin-left: 870px;">
+		  <h1>Themes!</h1>
+		  <p>Click any picture to change the color :3<br><br>(WIPP)</p>
+		</section>
+		
+		<section class="music" style="margin-top: 6%; margin-left: 9%;">
+			<div class="playlist_container">
+				<select id="playlist_select"></select>
+			</div>
+			<h2 style=" text-align: center;">Music Player</h2>
+			<p style=" text-align: center;">Also changes with the themes :0...orr u can change it urself if ur that impatient smh ( ｡ •̀ ᴖ •́ ｡) ↑</p>
+			<div class='back_music'>
+				<div class="song_info" style=" text-align: center;">
+					<div class="cover_art"></div>
+					<div class="song_name"></div>
+					<div class="artist_name"></div>
+				</div>
+				<div class="slider">
+					<div class="slider_container">
+						<div class='current_time'>00:00</div>
+						<input type="range" min="1" max="100" value="0" class="seekSlider" onchange="seekTo()">
+						<div class='song_length'>0:00</div>
+					</div>
+				</div>
+				<div class="song_buttons">
+					<div class = "song_buttons_container">
+						<div class="last_song" onclick="prevSong()">back</div>
+						<div class="play_pause" onclick="playpauseSong()">pause</div>
+						<div class="next_song" onclick="nextSong()">next</div>
+					</div>
+				</div>
+			</div>
+			<audio id="music" src=""></audio>
+		</section>
+	</div>
+
+	<footer>
+		<span>ieatlosers</span>
+	</footer>
+	<script src="firstjava.js"></script>
+</body>
+</html>
